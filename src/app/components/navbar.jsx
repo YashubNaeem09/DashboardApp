@@ -77,7 +77,7 @@ export default function Navbar() {
                         <div>
                             <Menu.Button className="ml-1 inline-flex rounded-full focus:outline-none focus:ring-2">
                                 <span className="sr-only">Open Menu</span>
-                                <div className="h-10 w-10 rounded-full bg-cover bg-no-repeat bg-center bg-sky-500" style={{ backgroundImage: 'url("https://source.unsplash.com/80x80?face")' }}>
+                                <div className="h-10 w-10 rounded-full bg-cover bg-no-repeat bg-center bg-bgTheme" style={{ backgroundImage: 'url("https://source.unsplash.com/80x80?face")' }}>
                                     <span className="sr-only">Your Profile</span>
                                 </div>
                             </Menu.Button>

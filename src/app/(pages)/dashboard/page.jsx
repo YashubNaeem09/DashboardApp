@@ -1,9 +1,16 @@
+import BuyerChart from "./_dashboardComps/buyerChart"
 import GridComp from "./_dashboardComps/gridComp"
+import TransactionChart from "./_dashboardComps/transactionChart"
 export default function Dashboard() {
     return (
         <>
-        <h1>This is Dashboard!</h1>
+        <div className="flex flex-col">
         <GridComp/>
+        <div className="pt-4 gap-5 flex flex-row">
+        <TransactionChart/>
+        <BuyerChart/>
+        </div>
+        </div>
         </>
     )
 }

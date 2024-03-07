@@ -18,7 +18,7 @@ export default function Sidebar() {
                             const isActive = pathname.startsWith(element.path);
                             return (
                                 <>
-                                    <Link className={isActive ? "bg-neutral-800 text-textColor1" : "bg-red" } href={element.path} key={element.key}>
+                                    <Link key={element.key} className={isActive ? "bg-neutral-800 text-textColor1" : "bg-red" } href={element.path}>
                                         <div className="flex items-center gap-2 py-2 hover:bg-textHover hover:text-textColor1 px-2">
                                             <span className="text-xl">{element.icon}</span>
                                             <h1 className="text-lg font-medium cursor-pointer" key={element.key}>{element.label}</h1>

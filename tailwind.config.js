@@ -18,6 +18,7 @@ module.exports = {
         textColor2: "rgb(163 163 163)",
         textHover: "rgb(64 64 64)",
         navbarColor: "rgb(255 255 255)",
+        bgTheme: "rgb(14 165 233)",
       },
     },
   },
