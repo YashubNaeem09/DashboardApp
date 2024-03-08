@@ -9,7 +9,7 @@ export default function Navbar() {
     const navigate = useRouter();
     return (
         <>
-            <div className="bg-navbarColor px-3 h-16 flex flex-row justify-between items-center p-3 border-b border-gray-200">
+            <div className="bg-navbarColor px-3 h-[3.5rem] flex flex-row justify-between items-center p-3 border-b border-gray-200">
                 <div className="searchDiv flex flex-row items-center relative">
                     <HiOutlineSearch fontSize={18} className="absolute left-3 text-gray-500" />
                     <input type="search" placeholder="Search Here" className="p-2 focus:outline-none active:outline-none rounded-sm border border-gray pl-11 pr-4"></input>

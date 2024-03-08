@@ -4,10 +4,10 @@ import { Legend, PieChart, Pie, Cell, ResponsiveContainer } from "recharts"
 export default function BuyerChart() {
     return (
         <>
-            <div className="w-[20rem] h-[22rem] bg-navbarColor rounded-sm border border-gray-200 p-4 flex-col flex">
+            <div className="w-[20rem] h-[15rem] bg-navbarColor rounded-sm border border-gray-200 p-3 flex flex-col">
                 <h1 className="font-semibold text-gray-700">Buyer Profile</h1>
-                <ResponsiveContainer width="100%" height="100%" className="text-xs flex-1 w-full mt-3 pb-8" >
-                    <PieChart width={400} height={300}>
+                <ResponsiveContainer width="100%" height="100%" className="text-xs flex-1 pb-5" >
+                    <PieChart style={{width:"100%", height:"100%", paddingTop: "10%", paddingBottom: "10%"}}>
                         <Pie
                             data={data}
                             cx="50%"

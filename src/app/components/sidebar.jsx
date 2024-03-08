@@ -7,7 +7,7 @@ export default function Sidebar() {
     const pathname = usePathname();
     return (
         <>
-            <div className="bg-sidebarColor w-60 p-6 flex flex-col">
+            <div className="bg-sidebarColor w-[15rem] p-6 flex flex-col">
                 <div className="topPart flex-auto">
                     <div className="flex items-center px-1 py-1 gap-2">
                         <FcBullish fontSize={22} />

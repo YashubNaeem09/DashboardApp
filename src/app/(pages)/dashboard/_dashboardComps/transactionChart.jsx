@@ -3,9 +3,9 @@ import { BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, Y
 export default function TransactionChart() {
     return (
         <>
-            <div className="h-[22rem] bg-navbarColor rounded-sm border border-gray-200 flex-1 p-4 flex-col flex">
+            <div className="h-[15rem] bg-navbarColor rounded-sm border border-gray-200 flex-1 p-4 flex-col flex">
                 <h1 className="font-semibold text-gray-700">Transactions</h1>
-                <ResponsiveContainer width="100%" height="100%" className="text-xs flex-1 w-full mt-3 pb-4" >
+                <ResponsiveContainer width="100%" height="100%" className="text-xs flex-1 w-full mt-1" >
                     <BarChart width={500} height={300} data={data} margin={{ top: 20, right: 10, left: -10, bottom: 0 }} >
                         <CartesianGrid strokeDasharray="3 3 0 0" vertical={false} />
                         <XAxis dataKey="name" />
