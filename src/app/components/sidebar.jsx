@@ -13,7 +13,7 @@ export default function Sidebar() {
                         <FcBullish fontSize={22} />
                         <h1 className="text-lg font-medium text-textColor1">OpenShop</h1>
                     </div>
-                    <div className="flex-1 mt-6 text-textColor2">
+                    <div className="flex-1 mt-4 text-textColor2">
                         {DASHBOARD_SIDEBAR_LINKS.map((element) => {
                             const isActive = pathname.startsWith(element.path);
                             return (

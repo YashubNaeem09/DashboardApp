@@ -3,7 +3,7 @@ import Navbar from "../components/navbar";
 export default function Layout({ children }) {
     return (
         <>
-            <div className="flex flex-row bg-themeColor1 h-screen w-screen overflow-hidden">
+            <div className="flex flex-row bg-themeColor1 h-screen w-screen ">
                 <Sidebar />
                 <div className="flex-1">
                     <Navbar />
